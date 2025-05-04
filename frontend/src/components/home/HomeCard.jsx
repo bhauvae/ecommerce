@@ -13,7 +13,8 @@ const HomeCard = ({ product }) => {
             <img
               src={`${BASE_URL}${product.image}`}
               alt="Product Image"
-              className={styles.cardImgTop}
+              className="img-fluid"
+              style={{ objectFit: "contain" }}
             />
           </div>
           <div className={`text-center ${styles.cardBody}`}>

@@ -1,12 +1,22 @@
-@media (max-width: 1000px) {
+/* Keeps the navbar stuck at the top with proper stacking order */
+.stickyNavbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 1030;
+}
+
+/* Default cart button spacing */
+.responsiveCart {
+  margin-top: 0;
+}
+
+/* On viewports 1000px wide or less, add top margin */
+@media screen and (max-width: 1000px) {
   .responsiveCart {
     margin-top: 10px;
   }
 }
 
-  .stickyNavbar {
-    position: sticky !important;
-    top: 0;
-    z-index: 1030;
-
-  }
+.navbarContent {
+   justify-content: flex-end !important;
+}

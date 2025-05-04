@@ -66,7 +66,7 @@ class Command(BaseCommand):
         self.stdout.write(self.style.SUCCESS("Products imported successfully!"))
 
     def generate_placeholder_image(self, product_name, image_path):
-        image_size = (400, 200)
+        image_size = (600, 200)
         background_color = (
             random.randint(100, 255),
             random.randint(100, 255),
@@ -99,7 +99,7 @@ class Command(BaseCommand):
         for line, line_height in zip(lines, line_heights):
             bbox = draw.textbbox((0, 0), line, font=font)
             
-            x_position = 60
+            x_position = 100
             draw.text((x_position, y_position), line, font=font, fill=(0, 0, 0))
             y_position += line_height
 
