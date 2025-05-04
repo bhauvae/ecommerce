@@ -27,7 +27,6 @@ class Command(BaseCommand):
         Product.objects.all().delete()
         self.stdout.write(self.style.WARNING("All existing products deleted."))
 
-        products_to_create = []
 
         with open(csv_file_path, newline="", encoding="utf-8") as csvfile:
             reader = csv.DictReader(csvfile)
@@ -61,9 +60,9 @@ class Command(BaseCommand):
                                 image_filename, File(img_file), save=False
                             )
 
-                products_to_create.append(product)
+                product.save()
 
-        Product.objects.bulk_create(products_to_create)
+
         self.stdout.write(self.style.SUCCESS("Products imported successfully!"))
 
     def generate_placeholder_image(self, product_name, image_path):
