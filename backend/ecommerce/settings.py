@@ -57,6 +57,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
+    "https://bhauvae.github.io",
     "http://localhost:3000",
     "http://localhost:5173",
     "http://localhost:5174",
@@ -165,5 +166,5 @@ REST_FRAMEWORK = {
 }
 
 SIMPLE_JWT = {
-    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=90),}
-
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=90),
+}
