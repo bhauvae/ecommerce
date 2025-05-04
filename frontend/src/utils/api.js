@@ -1,11 +1,10 @@
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
+import { BASE_URL } from "./constants";
 
-// @ts-ignore
-const BASE = import.meta.env.VITE_API_BASE;
 // Set up the base URL
 const api = axios.create({
-  baseURL: BASE, // Your backend API's base URL
+  baseURL: BASE_URL, // Your backend API's base URL
 });
 
 api.interceptors.request.use(
