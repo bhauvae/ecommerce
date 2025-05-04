@@ -40,7 +40,7 @@ const App = () => {
 
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/ecommerce">
         <Routes>
           <Route
             path="/"

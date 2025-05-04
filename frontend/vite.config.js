@@ -5,7 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/ecommerce/",
   plugins: [react()],
-
+  build: {
+    outDir: '../docs',           // <-- output directly into the docs/ folder
+    emptyOutDir: true,           // <-- clear docs/ before each build
+  },
   server: {
     watch: {
       usePolling: true,
