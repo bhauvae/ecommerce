@@ -21,13 +21,13 @@ const PaymentConfirmation = () => {
             Thank you for the order
           </p>
           <a
-            href="/profile"
+            href="profile"
             className="btn btn-light btn-lg rounded-pill px-4 py-2 m-2"
           >
             View Order details
           </a>
           <a
-            href="/#shop"
+            href="#shop"
             className="btn btn-light btn-lg rounded-pill px-4 py-2"
           >
             Continue Shopping
