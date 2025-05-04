@@ -27,7 +27,7 @@ const PaymentConfirmation = () => {
             View Order details
           </a>
           <a
-            href="#shop"
+            href="/ecommerce/#shop"
             className="btn btn-light btn-lg rounded-pill px-4 py-2"
           >
             Continue Shopping
