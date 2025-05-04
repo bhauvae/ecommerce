@@ -1,0 +1,25 @@
+
+.paypalButton {
+  background-color: #0070ba;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+}
+
+.flutterwaveButton {
+  background-color: #f89500;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}

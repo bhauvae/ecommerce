@@ -1,0 +1,30 @@
+/* in LoginPage.css */
+.btn-primary {
+  background-color: #6050dc;
+  border-color: #6050dc;
+  color: #fff;
+  font-weight: 500;
+}
+.btn-primary:hover {
+  background-color: #6658cf;
+  border-color: #6658cf;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* 2) Match Bootstrap’s form-control:focus */
+.form-control:focus {
+  border-color: #6050dc;
+  box-shadow: 0 0 0 0.2rem rgba(96, 80, 220, 0.25);
+  outline: none;
+}
+
+/* 3) Scope your link to card-body */
+.card-body a {
+  color: #6050dc;
+  text-decoration: none;
+}
+
+.card-body a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "checkJs": true,
+    "jsx": "react",
+    "allowJs":true
+  }
+}

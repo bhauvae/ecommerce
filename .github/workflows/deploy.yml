@@ -1,0 +1,37 @@
+name: Build & Deploy Frontend to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main    # or whatever your default branch is
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # so we can push tags/branches
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install frontend deps
+        working-directory: frontend
+        run: npm ci
+
+      - name: Build frontend
+        working-directory: frontend
+        run: npm run build      # must output to frontend/dist
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v5
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: frontend/dist
+          publish_branch: gh-pages
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com

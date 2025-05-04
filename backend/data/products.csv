@@ -1,0 +1,48 @@
+name,description,price,category,image_filename
+iPhone 15,Latest Apple iPhone with Dynamic Island,999.99,Electronics,iphone15.jpg
+Samsung Galaxy S23,High-performance Samsung phone with AMOLED screen,899.99,Electronics,galaxy_s23.jpg
+MacBook Pro,Apple laptop with M1 chip for professionals,1299.99,Electronics,macbook_pro.jpg
+Sony WH-1000XM5,Noise-canceling headphones,349.99,Electronics,sony_headphones.jpg
+Google Pixel 7,Google phone with amazing camera features,799.99,Electronics,pixel_7.jpg
+Nikon D3500,Entry-level DSLR camera for beginners,499.99,Electronics,nikon_d3500.jpg
+LG OLED TV,55-inch 4K OLED TV with deep blacks,1499.99,Electronics,lg_oled_tv.jpg
+Canon EOS Rebel T7,DSLR camera with 24MP sensor,549.99,Electronics,canon_eos_t7.jpg
+Dell XPS 13,Compact and powerful laptop for work and play,999.99,Electronics,dell_xps13.jpg
+Apple AirPods Pro,True wireless earbuds with active noise cancellation,249.99,Electronics,airpods_pro.jpg
+Fresh Organic Apples,Fresh organic apples from local farms,3.99,Groceries,apples.jpg
+Banana Bunch,Fresh bananas from Ecuador,1.99,Groceries,bananas.jpg
+Cabbage,Fresh green cabbage for your salads,2.49,Groceries,cabbage.jpg
+Carrot Pack,Pack of fresh carrots,1.49,Groceries,carrots.jpg
+Tomato Box,Fresh organic tomatoes,2.99,Groceries,tomatoes.jpg
+Lettuce,Fresh iceberg lettuce for your salads,1.49,Groceries,lettuce.jpg
+Avocados,Fresh ripe avocados,2.99,Groceries,avocados.jpg
+Blueberries,Fresh blueberries for smoothies,5.99,Groceries,blueberries.jpg
+Chicken Breast,Fresh chicken breasts,8.99,Groceries,chicken_breast.jpg
+Beef Steaks,Premium beef steaks for grilling,14.99,Groceries,beef_steak.jpg
+Men’s Denim Jacket,Classic denim jacket for men,49.99,Clothing,denim_jacket.jpg
+Women’s Leather Jacket,Stylish leather jacket for women,79.99,Clothing,leather_jacket.jpg
+Cotton T-Shirt,Soft cotton t-shirt in various colors,19.99,Clothing,cotton_tshirt.jpg
+Slim Fit Jeans,Fashionable slim-fit jeans for men,39.99,Clothing,slim_fit_jeans.jpg
+Summer Shorts,Lightweight shorts for summer,24.99,Clothing,summer_shorts.jpg
+Wool Sweater,Cozy wool sweater for winter,49.99,Clothing,wool_sweater.jpg
+Men’s Running Shoes,Comfortable running shoes for men,59.99,Clothing,running_shoes_men.jpg
+Women’s Sneakers,Stylish sneakers for women,49.99,Clothing,sneakers_women.jpg
+Winter Coat,Heavy winter coat to keep you warm,99.99,Clothing,winter_coat.jpg
+Sports Bra,Comfortable sports bra for workout,19.99,Clothing,sports_bra.jpg
+Yoga Pants,Stretchable yoga pants for women,29.99,Clothing,yoga_pants.jpg
+LED Desk Lamp,Adjustable LED desk lamp with touch control,29.99,Furniture,desk_lamp.jpg
+Wooden Coffee Table,Stylish wooden coffee table,99.99,Furniture,coffee_table.jpg
+Office Chair,Ergonomic office chair for comfort,129.99,Furniture,office_chair.jpg
+Sofa Set,Modern sofa set for living room,799.99,Furniture,sofa_set.jpg
+Dining Table,Wooden dining table with chairs,399.99,Furniture,dining_table.jpg
+Bookshelf,Wooden bookshelf for home office,129.99,Furniture,bookshelf.jpg
+Wall Mirror,Decorative wall mirror for your room,59.99,Furniture,wall_mirror.jpg
+Floor Lamp,Standing floor lamp for living room,69.99,Furniture,floor_lamp.jpg
+Air Purifier,HEPA air purifier for cleaner air,199.99,Home Appliances,air_purifier.jpg
+Blender,High-speed blender for smoothies,49.99,Home Appliances,blender.jpg
+Coffee Maker,Automatic coffee maker for fresh coffee,99.99,Home Appliances,coffee_maker.jpg
+Electric Kettle,Fast boiling electric kettle,29.99,Home Appliances,electric_kettle.jpg
+Vacuum Cleaner,Powerful vacuum cleaner for your home,149.99,Home Appliances,vacuum_cleaner.jpg
+Portable Speaker,Wireless portable speaker with great sound,49.99,Electronics,portable_speaker.jpg
+Bluetooth Headphones,Wireless headphones with great sound quality,59.99,Electronics,bluetooth_headphones.jpg
+Smart Watch,Stylish smartwatch with fitness tracking,129.99,Electronics,smart_watch.jpg
